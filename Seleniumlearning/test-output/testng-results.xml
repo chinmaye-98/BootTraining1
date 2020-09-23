@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="266" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="266" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+      <class name="com.testng.ParallelExecution">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.testng.ParallelExecution@2b552920]" name="testCase1" duration-ms="12" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.testng.ParallelExecution@2b552920]" name="testCase2" duration-ms="9" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:com.testng.ParallelExecution@2b552920]" name="testCase3" duration-ms="3" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+      </class> <!-- com.testng.ParallelExecution -->
+      <class name="com.testng.PriorityTestCase">
+        <test-method status="PASS" signature="testCase3()[pri:1, instance:com.testng.PriorityTestCase@2758fe70]" name="testCase3" duration-ms="3" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method status="PASS" signature="testCase1()[pri:2, instance:com.testng.PriorityTestCase@2758fe70]" name="testCase1" duration-ms="2" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="testCase2()[pri:3, instance:com.testng.PriorityTestCase@2758fe70]" name="testCase2" duration-ms="3" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- com.testng.PriorityTestCase -->
+      <class name="com.testng.SampleTestCase">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="beforeSuite" is-config="true" duration-ms="43" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="testCase1" duration-ms="3" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="testCase2" duration-ms="2" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="testCase3" duration-ms="3" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testng.SampleTestCase@3701eaf6]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testng.SampleTestCase -->
+      <class name="com.testng.ParallelExecution1">
+        <test-method status="PASS" signature="testCase4()[pri:0, instance:com.testng.ParallelExecution1@627551fb]" name="testCase4" duration-ms="19" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method status="PASS" signature="testCase5()[pri:0, instance:com.testng.ParallelExecution1@627551fb]" name="testCase5" duration-ms="3" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+        <test-method status="PASS" signature="testCase6()[pri:0, instance:com.testng.ParallelExecution1@627551fb]" name="testCase6" duration-ms="6" started-at="2020-09-15T11:28:41 IST" finished-at="2020-09-15T11:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase6 -->
+      </class> <!-- com.testng.ParallelExecution1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
